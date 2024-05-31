@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Signup</title>
+    <link rel="stylesheet" href="Task1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container login-container">
+            <form id="loginForm" action="#">
+                <h1>Login</h1>
+                <input type="email" id="loginEmail" placeholder="Email" required />
+                <span class="error-message" id="loginEmailError"></span>
+                <input type="password" id="loginPassword" placeholder="Password" required />
+                <span class="error-message" id="loginPasswordError"></span>
+                <button type="submit">Login</button>
+                <p>Don't have an account? <span class="toggle">Sign Up</span></p>
+            </form>
+        </div>
+        <div class="form-container signup-container">
+            <form id="signupForm" action="#">
+                <h1>Sign Up</h1>
+                <input type="text" id="signupName" placeholder="Name" required />
+                <span class="error-message" id="signupNameError"></span>
+                <input type="email" id="signupEmail" placeholder="Email" required />
+                <span class="error-message" id="signupEmailError"></span>
+                <input type="password" id="signupPassword" placeholder="Password" required />
+                <span class="error-message" id="signupPasswordError"></span>
+                <button type="submit">Sign Up</button>
+                <p>Already have an account? <span class="toggle">Login</span></p>
+            </form>
+        </div>
+    </div>
+    <script src="Task1.js"></script>
+</body>
+</html>
